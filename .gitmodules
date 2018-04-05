@@ -1,0 +1,15 @@
+[submodule "wiod.diagrammer"]
+	path = wiod.diagrammer
+	url = https://github.com/brancengregory/wiod.diagrammer.git
+[submodule "gvc"]
+	path = gvc
+	url = https://github.com/brancengregory/gvc.git
+[submodule "wiod"]
+	path = wiod
+	url = https://github.com/brancengregory/wiod.git
+[submodule "decompr"]
+	path = decompr
+	url = https://github.com/brancengregory/decompr.git
+[submodule "wiodv2"]
+	path = wiodv2
+	url = https://github.com/brancengregory/wiodv2.git
