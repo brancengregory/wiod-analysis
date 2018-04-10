@@ -4,12 +4,9 @@
 #devtools::install_github("bquast/decompr")
 #install.packages("OECD")
 
-library(magrittr)
-library(dplyr)
-library(wiod)
-library(decompr)
+library(tidyverse)
 
-load("~/vagrant_shared/data/wiot_r_Nov16/WIOT2000_October16_ROW.RData")
+load("./data/wiot_r_Nov16/WIOT2000_October16_ROW.RData")
 
 # countries <- unique(wiot$Country)
 # countries <- countries[!countries %in% "TOT"]
@@ -68,7 +65,6 @@ bigaggWIOTvert <- function(countriesX,yr){
   z <- Reduce("+",x)
   return(z)
 }
-
 
 aggWIOT <- function(cntry1,cntry2,yr){
   countries <- unique(wiot$Country)
